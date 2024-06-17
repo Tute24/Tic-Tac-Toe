@@ -1,0 +1,23 @@
+#tableRegion{
+    background-color: black;
+    width: 19rem;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+#tableRegion span {
+    background-color: lightgrey;
+    display: grid;
+    cursor:pointer;
+    place-content: center;
+    font-size: 4rem;
+}
+
+#tableRegion span.win{
+    background-color: green;
+}
